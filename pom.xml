@@ -21,7 +21,10 @@
         <artifactId>tomcat-embed-jasper</artifactId>
         <version>${tomcat.version}</version>
     </dependency>
-    <dependency>
+    <properties>
+   <maven.compiler.source>1.6</maven.compiler.source>
+   <maven.compiler.target>1.6</maven.compiler.target>
+ </properties>
         <groupId>org.apache.tomcat</groupId>
         <artifactId>tomcat-jasper</artifactId>
         <version>${tomcat.version}</version>
