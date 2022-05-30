@@ -69,9 +69,6 @@
                 </execution>
             </executions>
         </plugin>
-    </plugins>
-  </build>
-</project>
         <plugin>
              <artifactId>maven-compiler-plugin</artifactId>
              <version>3.5.1</version>
@@ -82,3 +79,6 @@
         </plugin>
         </plugins> 
         </build>
+  </plugins>
+  </build>
+</project>
